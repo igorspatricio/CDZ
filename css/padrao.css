@@ -1,0 +1,163 @@
+/*template*/
+body
+{
+    margin: 0px;
+    
+
+}
+html, body {
+    
+    height:100%;
+  }
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+section
+{
+    height: 100%;
+    
+}
+.conteudo
+{
+    overflow-y: auto;
+    text-align: center;
+    float: left;
+    width: 90%;
+    height:100vh;
+
+}
+header
+{
+    background: rgb(67, 123, 253);
+    min-height: 100px;
+}
+.imgCab
+{
+    height: 60px;
+    padding: 20px;
+    float: left;
+}
+header h1
+{
+    margin : 0px;
+  
+    padding: 40px;
+    padding-left: 200px;
+    color: silver;
+}
+nav{
+   
+    /*border-right: 1px solid black;*/
+    float: left;
+    width: 10%;
+    height: 100%;
+    background-color: rgb(150, 209, 243);
+    
+
+}
+nav a
+{
+    text-decoration: none;
+}
+nav a:visited
+{
+    color: blue;
+}
+nav ul { 
+    margin: 0px; /* retira o recuo para alguns browsers */ 
+    padding:0px; /* retira o recuo para outros browsers */
+    list-style-type: none; /* retira o marcador de listas*/ 
+}
+nav li
+{
+    text-align: center;
+    padding: 20px;
+}
+nav li:hover
+{
+    color: red;
+    background: silver;
+    opacity: 0.6;
+}
+
+
+footer
+{
+    background-color: rgb(253, 253, 253);
+    padding: 5px;
+    border-top: black solid 1px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    max-height: 20px;
+}
+
+/* Responsive layout - 
+makes the two columns/boxes stack on top of each other instead of next to each other, on small screens
+(tava junto com o layout  que eu to usando '-')*/
+@media (max-width: 600px) 
+{
+    nav, article {
+      width: 100%;
+      height: auto;
+    }
+}
+
+/*label*/
+input[type="file"] {
+    display: none;
+}
+input
+{
+    margin: 5px;
+}
+label
+{
+    color: blue;
+}
+
+/*Configs Botoes*/
+.botao
+{
+    cursor: pointer;
+
+    font-family: "Times New Roman";
+    text-decoration: none;
+
+    font-size: 15px;
+    padding: 5px;
+    margin: 5px;
+
+    border: 2px solid red;
+    border-radius: 5px;
+
+    background: red;
+    color: black;
+}
+.botao:hover
+{
+    opacity: 0.6;
+}
+.botao:visited
+{
+    text-decoration: none;
+    color: black;
+}
+img
+{
+    max-height: 350px;
+}
+.caixaTexto
+{
+    border: solid black 2px;
+    padding: 10px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.caixaItem
+{
+    border-bottom: solid black 1px;
+
+
+}

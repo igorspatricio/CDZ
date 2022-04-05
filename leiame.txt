@@ -1,0 +1,3 @@
+Configurações de conexão ao banco de dados se encontra em SQL/dbObj.php
+O arquivo SQL/bancoLimpo.sql é o sql para criar o banco de dados
+O arquivo SQL/banco_de_dados_cdz.sql tem a criação do bd com alguns dados inseridos
